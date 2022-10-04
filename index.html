@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <style>
+        .card {
+            --bs-card-border-width: 0px;
+        }
+    </style>
+    <title>Kő Papír Olló</title>
+</head>
+<body>
+    <main>
+        <div class="container" align="center">
+            <div class="row">
+                <header>
+                    <h1 id="cim">Kő papír olló</h1>
+                    <p>Készítette: Sárközi Dániel</p>
+                </header>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <table class="pontszam">
+                        <tr>
+                            <td colspan="2">
+                                <h2>Pontszám</h2>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="szovegjobbra">Te</td>
+                            <td class="szovegbalra">Gép</td>
+                        </tr>
+                        <tr>
+                            <td class="szovegjobbra"><span id="upontszam">0</span> </td>
+                            <td class="szovegbalra"><span id="gpontszam">0</span></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row coins">
+                <div class="col">
+                    <div class="card">
+                        <div class="card__face--front">
+                            <img src="qmark.png" id="userchoice" class="choice pp" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card__inner">
+                            <div class="card__face--front">
+                                <img src="qmark.png" id="compchoice" class="choice pp" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <span id="infobox">Válassz:</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col gombok">
+                    <button onclick="kpo('k')" id="ko" type="button" class="btn btn-light gomb"><img src="img/rock.png" class="choicebttn"></button>
+                    <button onclick="kpo('p')" id="papir" type="button" class="btn btn-light gomb"><img src="img/paper.png" class="choicebttn"></button>
+                    <button onclick="kpo('o')" id="ollo" type="button" class="btn btn-light gomb"><img src="img/scissors.png" class="choicebttn"></button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="kpo.js"></script>
+    <footer align="center">
+        <div class="row">
+            <p>Az ikonok készítői:</p><br>
+            <a href="https://www.flaticon.com/free-icons/danger" title="danger icons">Danger icons created by Those Icons - Flaticon</a><br>
+            <a href="https://www.flaticon.com/free-icons/toilet-paper" title="toilet paper icons">Toilet paper icons created by Freepik - Flaticon</a><br>
+            <a href="https://www.flaticon.com/free-icons/cut" title="cut icons">Cut icons created by Those Icons - Flaticon</a>
+        </div>
+    </footer>
+</body>
+</html>
