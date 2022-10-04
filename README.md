@@ -1,2 +1,2 @@
 # kpo-weboldal
-(link az oldalhoz)[https://shrek.unideb.hu/~danielsarkozi/]
+[link az oldalhoz](https://shrek.unideb.hu/~danielsarkozi/)
