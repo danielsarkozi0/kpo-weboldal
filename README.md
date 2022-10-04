@@ -1,2 +1,2 @@
 # kpo-weboldal
- Webfejlesztés kurzura készített weboldal
+(link az oldalhoz)[https://shrek.unideb.hu/~danielsarkozi/]
